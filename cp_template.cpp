@@ -7,10 +7,12 @@ using namespace std;
 #define f(i, n) for(int i = 0; i < n; i++)
 #define fll(i, n) for(long long i = 0; i < n; i++)
 #define p(x) cout<<x<<'\n';
+#define FAST_IO ios_base::sync_with_stdio(false); cin.tie(NULL);
 
 //  CODE STARTS HERE
 
 int main()
 {
-
+    FAST_IO
+    
 }
