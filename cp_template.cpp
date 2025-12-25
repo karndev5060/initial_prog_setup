@@ -15,7 +15,8 @@ using namespace std;
 #define fi(i, a, n)         for(int i = a; i < n; i++)
 #define fll(i, n)           for(long long i = 0; i < n; i++)
 #define fill(i, a, n)       for(long long i = a; i < n; i++)
-#define InArr               int n; cin>>n; int arr[n];f(i, n) cin>>arr[i];
+#define InArr               int n; cin>>n; int arr[n];f(i, n) cin>>arr[i]; //only for int
+#define min3(a, b, c)       min((a),(min((b),(c))))
 #define pn(x)               cout<<x<<'\n'; 
 #define ps(x)               cout<<x<<' ';
 #define nl                  cout<<'\n';
@@ -26,5 +27,5 @@ using namespace std;
 int main()
 {
     FAST_IO
-  
+    
 }
