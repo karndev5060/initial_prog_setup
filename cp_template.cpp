@@ -20,11 +20,11 @@ using namespace std;
 #define ps(x)               cout<<x<<' ';
 #define nl                  cout<<'\n';
  
-#define FAST_IO             ios_base::sync_with_stdio(false); cin.tie(NULL);
+#define FAST_IO             ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
  
 //  CODE STARTS HERE
 int main()
 {
     FAST_IO
-    
+  
 }
