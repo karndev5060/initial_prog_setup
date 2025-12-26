@@ -8,8 +8,8 @@ using namespace std;
 /// PAIRS
 #define pii                 pair<int, int>
 #define pll                 pair<ll, ll>
-#define fi                  first  
-#define sn                  second
+#define ff                  first  
+#define ss                  second
 
 /// VECTORS
 #define vi                  vector<int>
@@ -30,8 +30,8 @@ using namespace std;
 #define fill(i, a, n)       for(ll i = a; i < n; i++)
 #define InArr               int n; cin>>n; vi arr(n); f(i, n) cin>>arr[i]; //only for vector int
 #define min3(a, b, c)       min((a),(min((b),(c))))
-#define pn(x)               cout<<x<<'\n'; 
-#define ps(x)               cout<<x<<' ';
+#define pn(x)               cout<<(x)<<'\n'; 
+#define ps(x)               cout<<(x)<<' ';
 #define nl                  cout<<'\n';
  
 #define FAST_IO             ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
@@ -40,5 +40,5 @@ using namespace std;
 int main()
 {
     FAST_IO
-    
+
 }
