@@ -1,10 +1,23 @@
 #include <bits/stdc++.h>
 using namespace std;
  
-//  MACROS ARE LISTED HERE
+///  MACROS ARE LISTED HERE
+#define ll                  long long
+#define ld                  long double
+
+/// PAIRS
+#define pii                 pair<int, int>
+#define pll                 pair<ll, ll>
+#define fi                  first  
+#define sn                  second
+
 /// VECTORS
 #define vi                  vector<int>
- 
+#define vll                 vector<long long> 
+#define vpi                 vector<pii>
+#define vpl                 vector<pll>
+#define pb                  push_back
+
 /// STRINGS
 #define SOS(x, str)         int x = (int) str.size(); 
 #define ascii(x, char)      int x = (int) char;
@@ -13,9 +26,9 @@ using namespace std;
 #define test                int t; cin>>t; while (t--)
 #define f(i, n)             for(int i = 0; i < n; i++)
 #define fi(i, a, n)         for(int i = a; i < n; i++)
-#define fll(i, n)           for(long long i = 0; i < n; i++)
-#define fill(i, a, n)       for(long long i = a; i < n; i++)
-#define InArr               int n; cin>>n; int arr[n];f(i, n) cin>>arr[i]; //only for int
+#define fll(i, n)           for(ll i = 0; i < n; i++)
+#define fill(i, a, n)       for(ll i = a; i < n; i++)
+#define InArr               int n; cin>>n; vi arr(n); f(i, n) cin>>arr[i]; //only for vector int
 #define min3(a, b, c)       min((a),(min((b),(c))))
 #define pn(x)               cout<<x<<'\n'; 
 #define ps(x)               cout<<x<<' ';
