@@ -9,7 +9,7 @@ using namespace std;
 #define pii                 pair<int, int>
 #define pll                 pair<ll, ll>
 #define ff                  first  
-#define ss                  second
+#define ss                 second
 
 /// VECTORS
 #define vi                  vector<int>
@@ -17,6 +17,7 @@ using namespace std;
 #define vpi                 vector<pii>
 #define vpl                 vector<pll>
 #define pb                  push_back
+#define all(x)              (x).begin(),(x).end()
 
 /// STRINGS
 #define SOS(x, str)         int x = (int) str.size(); 
