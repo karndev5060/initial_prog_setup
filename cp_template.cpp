@@ -9,7 +9,7 @@ using namespace std;
 #define pii                 pair<int, int>
 #define pll                 pair<ll, ll>
 #define ff                  first  
-#define ss                 second
+#define ss                  second
 
 /// VECTORS
 #define vi                  vector<int>
