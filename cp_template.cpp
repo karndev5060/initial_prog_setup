@@ -20,7 +20,7 @@ using namespace std;
 #define all(x)              (x).begin(),(x).end()
 
 /// STRINGS
-#define SOS(x, str)         int x = (int) str.size();
+#define SOS(x, str)         int x = (int) str.size(); 
 #define ascii(x, char)      int x = (int) char;
  
 //OTHERS
@@ -31,6 +31,9 @@ using namespace std;
 #define fill(i, a, n)       for(ll i = a; i < n; i++)
 #define InArr               int n; cin>>n; vi arr(n); f(i, n) cin>>arr[i]; //only for vector int
 #define min3(a, b, c)       min((a),(min((b),(c))))
+#define max3(a, b, c)       max((a),(max((b),(c))))
+#define max4(a, b, c , d)   max((max((a),(b))),(max((c),(d))))
+#define min4(a, b, c , d)   min((min((a),(b))),(min((c),(d))))
 #define pn(x)               cout<<(x)<<'\n'; 
 #define ps(x)               cout<<(x)<<' ';
 #define nl                  cout<<'\n';
@@ -41,5 +44,5 @@ using namespace std;
 int main()
 {
     FAST_IO
-
+    
 }
