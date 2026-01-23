@@ -27,8 +27,6 @@ using namespace std;
 #define test                int t; cin>>t; while (t--)
 #define f(i, n)             for(int i = 0; i < n; i++)
 #define fi(i, a, n)         for(int i = a; i < n; i++)
-#define fll(i, n)           for(ll i = 0; i < n; i++)
-#define fill(i, a, n)       for(ll i = a; i < n; i++)
 #define InArr               int n; cin>>n; vi arr(n); f(i, n) cin>>arr[i]; //only for vector int
 #define InKArr              int n, k; cin>>n>>k; vi arr(n); f(i, n) cin>>arr[i]; //only for vector int
 #define pn(x)               cout<<(x)<<'\n'; 
