@@ -30,10 +30,7 @@ using namespace std;
 #define fll(i, n)           for(ll i = 0; i < n; i++)
 #define fill(i, a, n)       for(ll i = a; i < n; i++)
 #define InArr               int n; cin>>n; vi arr(n); f(i, n) cin>>arr[i]; //only for vector int
-#define min3(a, b, c)       min((a),(min((b),(c))))
-#define max3(a, b, c)       max((a),(max((b),(c))))
-#define max4(a, b, c , d)   max((max((a),(b))),(max((c),(d))))
-#define min4(a, b, c , d)   min((min((a),(b))),(min((c),(d))))
+#define InKArr              int n, k; cin>>n>>k; vi arr(n); f(i, n) cin>>arr[i]; //only for vector int
 #define pn(x)               cout<<(x)<<'\n'; 
 #define ps(x)               cout<<(x)<<' ';
 #define nl                  cout<<'\n';
