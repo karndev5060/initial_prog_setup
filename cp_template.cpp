@@ -31,6 +31,7 @@ using namespace std;
 #define InKArr              int n, k; cin>>n>>k; vi arr(n); f(i, n) cin>>arr[i]; //only for vector int
 #define pn(x)               cout<<(x)<<'\n'; 
 #define ps(x)               cout<<(x)<<' ';
+#define display(arr)        f(i, arr.size()) ps(arr[i]) nl;
 #define nl                  cout<<'\n';
  
 #define FAST_IO             ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
